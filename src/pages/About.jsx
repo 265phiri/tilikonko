@@ -15,8 +15,8 @@ const About = () => {
 
         {/* First column festivals and parties */}
           <div className='relative md:w-96 md:mx-auto xl:scale-125 xl:mt-20 scale-75 lg:scale-100'>
-            <img src="src/assets/Rock2.png" alt=""className='absolute scale-50 bottom-20 left-0 xl:scale-100'/>
-            <img src="src/assets/Dome 3.png" alt=""className='absolute scale-50 left-0 -top-32 rotate-[20deg] xl:scale-100'/>
+            <img src="images/Rock2.png" alt=""className='absolute scale-50 bottom-20 left-0 xl:scale-100'/>
+            <img src="images/Dome 3.png" alt=""className='absolute scale-50 left-0 -top-32 rotate-[20deg] xl:scale-100'/>
             
             <div className="p-2 h-fit w-fit rounded-full mx-auto">
               <img src="https://images.pexels.com/photos/17317652/pexels-photo-17317652/free-photo-of-man-standing-in-eyeglasses-and-with-hand-raised-on-purple-background.jpeg?auto=compress&cs=tinysrgb&w=400" className="bg-fallBack object-cover h-[23rem] w-56 rounded-full mx-auto"/>
@@ -32,7 +32,7 @@ const About = () => {
 
         {/* Concerts and Perforamnces */}
         <div className='relative md:w-96 md:mx-auto xl:scale-125 xl:mt-20 scale-75 pt-32 lg:scale-100'>
-            <img src="src/assets/Rock.png" alt=""className='absolute scale-75 right-0 -top-20 xl:scale-100'/>
+            <img src="images/Rock.png" alt=""className='absolute scale-75 right-0 -top-20 xl:scale-100'/>
             <img src="src/assets/TorusHalf4.png" alt=""className='absolute scale-50 rotate-[30deg] -bottom-40 -left-16 xl:scale-100 xl:left-10 xl:-bottom-40 xl:rotate-6'/>
             <div className="p-2 h-fit w-fit rounded-full mx-auto">
               <img src="https://images.pexels.com/photos/3358299/pexels-photo-3358299.jpeg?auto=compress&cs=tinysrgb&w=600" className="bg-fallBack object-cover h-[23rem] w-56 rounded-full mx-auto"/>
@@ -46,9 +46,9 @@ const About = () => {
         </div>
         {/* Exhibitions */}
         <div className='relative md:col-span-2 md:w-96 md:mx-auto xl:scale-125 xl:-mt-40 scale-75 lg:scale-100'>
-          <img src="src/assets/TorusHalf4.png" alt=""className='absolute scale-75 -bottom-40 left-0 rotate-[1deg] xl:left-10'/>
-          <img src="src/assets/Torus.png" alt=""className='absolute scale-50 -left-10 top-6 xl:scale-90 xl:-top-40 xl:left-20'/>
-          <img src="src/assets/Rock.png" alt=""className='absolute scale-75 rotate-[30deg] bottom-10 -left-2 xl:scale-100'/>
+          <img src="images/TorusHalf4.png" alt=""className='absolute scale-75 -bottom-40 left-0 rotate-[1deg] xl:left-10'/>
+          <img src="images/Torus.png" alt=""className='absolute scale-50 -left-10 top-6 xl:scale-90 xl:-top-40 xl:left-20'/>
+          <img src="images/Rock.png" alt=""className='absolute scale-75 rotate-[30deg] bottom-10 -left-2 xl:scale-100'/>
           <img src="" alt=""/>
           <div className="p-2 h-fit w-fit rounded-full mx-auto">
             <img src="https://images.pexels.com/photos/7658692/pexels-photo-7658692.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" className="bg-fallBack object-cover h-[23rem] w-56 rounded-full mx-auto "/>
