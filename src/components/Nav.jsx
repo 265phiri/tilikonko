@@ -45,7 +45,7 @@ const Nav = () => {
           {!nav ? <AiOutlineMenu size={30}/> : <HiOutlineXMark size={30}/>}
     </div >
 
-    <section className={nav ? 'fixed left-0 top-20 w-full h-full bg-white ease-in-out duration-500 border-[1px] border-slate-200' : 'ease-in-out duration-500 fixed left-[-100%] top-20 h-full w-full bg-white z-40 border-[1px] border-slate-200'}>
+    <section className={nav ? 'fixed left-0 top-14 w-full h-full bg-white ease-in-out duration-500 border-slate-200' : 'ease-in-out duration-500 fixed left-[-100%] top-14 h-full w-full bg-white z-40 border-slate-200'}>
       <div className='grid mx-6 mt-32 font-EricaOne text-4xl text-brandBlack'>
         <NavLink className='mr-10 pb-5' onClick={handleNav} to={"/"}>Home</NavLink>
         <NavLink className='mr-10 pb-5' onClick={handleNav} to={"/about"}>About Us</NavLink>
