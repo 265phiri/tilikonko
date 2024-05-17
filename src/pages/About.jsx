@@ -61,7 +61,7 @@ const About = () => {
         </div>
       </section>
 
-      <section className='pt-40 xl:pt-56'>
+      <section className='pt-40 xl:pt-56 mx-auto'>
         <div className="mx-auto mb-8">
           <div className="text-center px-10">
             <p className='text-brandBlack font-bold text-lg xl:text-2xl'>Advertisement</p>
@@ -70,16 +70,16 @@ const About = () => {
         </div>
 
         <div className="grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-5 text-sm px-4 max-w-[68rem] mx-auto xl:mt-12">
-          <div className=' text-DM text-brandBlack text-center max-w-80 xl:text-left '>
+          <div className='text-DM text-brandBlack text-center max-w-80 xl:text-left mx-auto'>
             <h3 className='font-bold text-2xl pb-3'>Festivals & Parties</h3>
             <p className=' xl:text-left'>At Tilikonko, we’re passionate about celebrating life through music, art, culture, and community. Our platform is your virtual festival grounds—a place where festival-goers, artists, and organizers converge to create unforgettable experiences.</p>
           </div>
-          <div className=' text-DM text-brandBlack text-center xl:text-left max-w-80'>
+          <div className='mx-auto text-DM text-brandBlack text-center xl:text-left max-w-80'>
             <h3 className='font-bold text-2xl pb-3'>Concerts &
             Performances</h3>
             <p className=' xl:text-left'>Are you ready to amplify your audience reach? Look no further than Tilikonko, the ultimate stage for promoting your concerts and performances.</p>
           </div>
-          <div className=' text-DM text-brandBlack text-center xl:text-left max-w-80'>
+          <div className='mx-auto text-DM text-brandBlack text-center xl:text-left max-w-80'>
             <h3 className='font-bold text-2xl pb-3'>Exhibitions</h3>
             <p>Your exhibition deserves the spotlight. We’ll showcase it on our homepage, catching the eyes of art enthusiasts, collectors, and culture connoisseurs.</p>
           </div>
