@@ -42,11 +42,11 @@ const Home = () => {
 
     {/* Lower Hero section graphics */}
       <section className=' relative mt-20 pb-40 max-w-[80rem] mx-auto '>
-        <img src="src/assets/Rock.png" alt="" className='scale-0 lg:scale-100 absolute lg:absolute -top-20 lg:left-72'/>
-        <img src="src/assets/Rock2.png" alt="" className='absolute -top-10 lg:right-20 right-0 scale-75 md:scale-100'/>
-        <img src="src/assets/Torus.png" alt="" className='absolute top-[24rem] md:right-80 md:scale-110 scale-75 right-10'/>
-        <img src="src/assets/Cone3.png" alt="" className='absolute top-[10rem] lg:left-56 lg:scale-100 scale-75 left-0'/>
-        <img src="src/assets/Hollow cube.png" alt="" className='scale-0 lg:scale-100 absolute lg:blobk lg:absolute top-[35rem] left-56'/>
+        <img src="images/Rock.png" alt="" className='scale-0 lg:scale-100 absolute lg:absolute -top-20 lg:left-72'/>
+        <img src="images/Rock2.png" alt="" className='absolute -top-10 lg:right-20 right-0 scale-75 md:scale-100'/>
+        <img src="images/Torus.png" alt="" className='absolute top-[24rem] md:right-80 md:scale-110 scale-75 right-10'/>
+        <img src="images/Cone3.png" alt="" className='absolute top-[10rem] lg:left-56 lg:scale-100 scale-75 left-0'/>
+        <img src="images/Hollow cube.png" alt="" className='scale-0 lg:scale-100 absolute lg:blobk lg:absolute top-[35rem] left-56'/>
       
         <div className="mx-auto p-2 lg:p-3 lg:h-90 bg-gradient-to-tr from-zinc-800 to-zinc-900 h-fit w-fit rounded-3xl">
         <img src="https://images.pexels.com/photos/801863/pexels-photo-801863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" className='mx-auto rounded-2xl object-cover w-[14rem] h-[28rem] md:w-[40rem] lg:w-[56rem] lg:h-[32rem]'/>
@@ -91,13 +91,13 @@ const Home = () => {
         {/* Be part of the conversation graphics */}
         <div className="relative max-w-[70rem] scale-90 md:w-[30rem] md:mx-auto xl:w-[42rem]">
           
-            <img src="src/assets/Dome 3.png" alt="" className='absolute scale-50 lg:scale-100 -bottom-12 -right-10 lg:-bottom-20 lg:right-40'/>
-            <img src="src/assets/Rock2.png" alt="" className='scale-75  hidden lg:absolute lg:bottom-40 lg:right-40'/>
-            <img src="src/assets/TorusHalf3.png" alt="" className='scale-50 absolute -top-20 -right-8 lg:-top-20 lg:right-28'/>
-            <img src="src/assets/Hollow cube.png" alt="" className='scale-75 lg:scale-100 -top-32 left-40 absolute lg:-top-28 lg:left-56'/>
-            <img src="src/assets/Dome 3.png" alt="" className='scale-75 lg:scale-100 absolute -top-20 left-10 lg:-top-14 lg:left-10 rotate-[20deg]'/>
-            <img src="src/assets/TorusHalf4.png" alt="" className='scale-0 lg:scale-100 absolute top-72 -left-20 lg:top-72 lg:left-10 '/>
-            <img src="src/assets/Rock.png" alt="" className='scale-90 lg:scale-100  hidden lg:absolute lg:bottom-10 lg:left-10'/>
+            <img src="images/Dome 3.png" alt="" className='absolute scale-50 lg:scale-100 -bottom-12 -right-10 lg:-bottom-20 lg:right-40'/>
+            <img src="images/Rock2.png" alt="" className='scale-75  hidden lg:absolute lg:bottom-40 lg:right-40'/>
+            <img src="images/TorusHalf3.png" alt="" className='scale-50 absolute -top-20 -right-8 lg:-top-20 lg:right-28'/>
+            <img src="images/Hollow cube.png" alt="" className='scale-75 lg:scale-100 -top-32 left-40 absolute lg:-top-28 lg:left-56'/>
+            <img src="images/Dome 3.png" alt="" className='scale-75 lg:scale-100 absolute -top-20 left-10 lg:-top-14 lg:left-10 rotate-[20deg]'/>
+            <img src="images/TorusHalf4.png" alt="" className='scale-0 lg:scale-100 absolute top-72 -left-20 lg:top-72 lg:left-10 '/>
+            <img src="images/Rock.png" alt="" className='scale-90 lg:scale-100  hidden lg:absolute lg:bottom-10 lg:left-10'/>
             <div className="">
           {/* main image */}
               <img src="https://images.pexels.com/photos/2240772/pexels-photo-2240772.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="" className='mx-auto w-[30rem] h-[30rem] md:h-[40rem] bg-fallBack rounded-full object-cover '/>
@@ -107,9 +107,9 @@ const Home = () => {
 
       {/* Contact Us */}
       <section className='relative px-0 lg:px-12 pt-20 pb-0 lg:pb-80 max-w-[96rem] mx-auto'>
-        <img src="/src/assets/Rock.png" alt="" className='hidden lg:absolute  top-32 left-80'/>
-        <img src="/src/assets/Cone3.png" alt="" className='hidden lg:absolute  top-96 right-72 rotate-[310deg]'/>
-        <img src="/src/assets/Torus.png" alt="" className='hidden lg:absolute scale-125 top-96 left-80'/>
+        <img src="images/Rock.png" alt="" className='hidden lg:absolute  top-32 left-80'/>
+        <img src="images/Cone3.png" alt="" className='hidden lg:absolute  top-96 right-72 rotate-[310deg]'/>
+        <img src="images/Torus.png" alt="" className='hidden lg:absolute scale-125 top-96 left-80'/>
         <div className="w-full bg-offBlack lg:w-fit lg:px-60 mx-auto lg:py-20 lg:rounded-3xl ">
           <p className='font-EricaOne text-3xl w-56 lg:w-fit  mx-auto text-center pt-10 lg:pt-0 lg:text-5xl text-white'>GET IN TOUCH WITH US</p>
           <p className='font-DM text-lg lg:text-3xl text-white font-light text-center pt-4'>For the lastest in social events</p>

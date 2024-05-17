@@ -31,9 +31,9 @@ const Contact = () => {
     
       <section className=' py-20'>
         <div className='relative md:w-96 md:mx-auto xl:scale-125 xl:mt-20'>
-          <img src="src/assets/Dome 3.png" alt=""className='absolute scale-50 -bottom-20 right-10 rotate-[45deg]'/>
-          <img src="src/assets/TorusHalf3.png" alt=""className='absolute scale-75 right-0 -top-20'/>
-          <img src="src/assets/TorusHalf4.png" alt=""className='absolute scale-75 rotate-[30deg] -bottom-32 -left-4'/>
+          <img src="images/Dome 3.png" alt=""className='absolute scale-50 -bottom-20 right-10 rotate-[45deg]'/>
+          <img src="images/TorusHalf3.png" alt=""className='absolute scale-75 right-0 -top-20'/>
+          <img src="images/TorusHalf4.png" alt=""className='absolute scale-75 rotate-[30deg] -bottom-32 -left-4'/>
           <img src="" alt=""/>
           <div className="p-2 bg-fadedAccent h-fit w-fit rounded-full mx-auto">
             <img src="https://images.pexels.com/photos/11744112/pexels-photo-11744112.jpeg?auto=compress&cs=tinysrgb&w=600" className="bg-fallBack object-cover h-80 w-56 rounded-full mx-auto"/>
