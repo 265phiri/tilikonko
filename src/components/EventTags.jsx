@@ -2,6 +2,9 @@ import React from 'react'
 import { NavLink } from 'react-router-dom'
 
 const EventTags = () => {
+
+  // Filters for the events
+
   return (
     <div className='flex justify-between pt-10 text-white'>
        <NavLink className= {({isActive}) => `px-3 py-2 bg-offBlack rounded-full ${
